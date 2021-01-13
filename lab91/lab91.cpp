@@ -131,5 +131,5 @@ double List(Students* S, const int N)
             cout << setw(3) << right << k << ". " << S[i].surname << endl;
         }
     cout << "=====================================" << endl;
-    return 0;
+    return k;
 }
